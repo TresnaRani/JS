@@ -4,11 +4,11 @@
 var  numberOfWon=0;
 var numberOfLost=0;
 
-for(i=1;i<=6;i++){
+for(i=1;i<=5;i++){
 
-var gussing_Number =  parseInt(prompt("Enter a number from 1 to 6"));
+var gussing_Number =  parseInt(prompt("Enter a number from 1 to 5"));
 
-var random_Number =  Math.floor(Math.random()*6)+1;
+var random_Number =  Math.floor(Math.random()*5)+1;
 
 if(gussing_Number==random_Number){
     console.log("You have won")
